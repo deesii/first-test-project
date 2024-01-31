@@ -1,7 +1,14 @@
 from lib.gratitudes import Gratitudes # Gratitudes brings in the class from lib
 
+#testing for instanciating an object that an empty list exists.
 
-def test_gratitude_empty():
+def test_for_when_instanciating_new_object_that_empty_list_exists():
+    gratitudes_instance = Gratitudes()
+    assert gratitudes_instance.gratitudes == []
+
+# testing the output when there is an empty list
+
+def test_formatting_for_when_gratitude_empty():
     gratitudes_instance = Gratitudes()
     gratitudes_instance.add("")
     result = gratitudes_instance.format()

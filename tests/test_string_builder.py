@@ -1,6 +1,6 @@
 from lib.string_builder import *
 
-#testing for adding the output for string that is empty string
+#testing for adding the output that it is empty string to start
 
 def test_string_empty_output_empty():
     string_builder = StringBuilder()
