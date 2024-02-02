@@ -21,4 +21,4 @@ class HighValue:
 
 # print(check_high_value.get_highest())
 
-# print(check_high_value.add("billy", "first"))
+# print(check_high_value.add(7, "bla"))
